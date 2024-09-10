@@ -103,3 +103,15 @@ const App = () => {
 La apariencia de los componentes de la interfaz de usuario siguen un patron constante.
 
 - La idea principal es utilizar siempre usar variables comom `colors.primary` en lugar de numeros como `#0366d6` al definir estilos.
+
+### Flexbox
+
+Flexbox es una entidad de diseño que consta de 2 componentes separados, un contenedor flexible y dentro de el un conjunto de elementos flexibles.
+
+Para convertir un componente en un contenedor flexible, este debe tener la propiedad `display` establecida como `flex`.
+
+Las propiedades mas importantes de un contenedor flexible son:
+
+- flexDirection.
+- justifyContent.
+- alignItems.
